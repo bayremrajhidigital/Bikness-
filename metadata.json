@@ -1,0 +1,8 @@
+{
+  "name": "Bikness",
+  "description": "A comprehensive fitness platform featuring AI-powered workout plans, a massive exercise library, and a vibrant community.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
