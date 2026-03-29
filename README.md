@@ -1,4 +1,4 @@
-# beknaes
+# bikness
 
 A comprehensive fitness platform featuring AI-powered workout plans, a massive exercise library, and a vibrant community.
 
@@ -6,8 +6,8 @@ A comprehensive fitness platform featuring AI-powered workout plans, a massive e
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/YOUR_USERNAME/beknaes.git
-    cd beknaes
+    git clone https://github.com/YOUR_USERNAME/bikness.git
+    cd bikness
     ```
 
 2.  **Install dependencies**:
@@ -24,14 +24,14 @@ A comprehensive fitness platform featuring AI-powered workout plans, a massive e
 
 This project is configured with a GitHub Action for automatic deployment.
 
-1.  Create a new repository on GitHub named `beknaes`.
+1.  Create a new repository on GitHub named `bikness`.
 2.  Push your code to the `main` branch:
     ```bash
     git init
     git add .
     git commit -m "Initial commit"
     git branch -M main
-    git remote add origin https://github.com/YOUR_USERNAME/beknaes.git
+    git remote add origin https://github.com/YOUR_USERNAME/bikness.git
     git push -u origin main
     ```
 3.  GitHub Actions will automatically build and deploy the app to the `gh-pages` branch.

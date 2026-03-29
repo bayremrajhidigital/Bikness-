@@ -115,7 +115,7 @@ const LandingPage = async () => {
                     TRANSFORM YOUR <span class="text-orange-500 italic">BODY</span>
                 </h1>
                 <p class="text-xl text-gray-600 max-w-2xl mx-auto mb-6">
-                    beknaes is your all-in-one fitness companion. AI-powered plans, massive exercise library, and a community of warriors.
+                    bikness is your all-in-one fitness companion. AI-powered plans, massive exercise library, and a community of warriors.
                 </p>
                 <div class="flex items-center justify-center gap-2 mb-10">
                     <div class="flex -space-x-2">
