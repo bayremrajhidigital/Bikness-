@@ -1,20 +1,47 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# beknaes
 
-# Run and deploy your AI Studio app
+A comprehensive fitness platform featuring AI-powered workout plans, a massive exercise library, and a vibrant community.
 
-This contains everything you need to run your app locally.
+## 🚀 Getting Started
 
-View your app in AI Studio: https://ai.studio/apps/25d2b41f-3821-4ce2-a210-3b9e116cb1c4
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/YOUR_USERNAME/beknaes.git
+    cd beknaes
+    ```
 
-## Run Locally
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
 
-**Prerequisites:**  Node.js
+3.  **Run the development server**:
+    ```bash
+    npm run dev
+    ```
 
+## 📦 Deployment to GitHub Pages
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+This project is configured with a GitHub Action for automatic deployment.
+
+1.  Create a new repository on GitHub named `beknaes`.
+2.  Push your code to the `main` branch:
+    ```bash
+    git init
+    git add .
+    git commit -m "Initial commit"
+    git branch -M main
+    git remote add origin https://github.com/YOUR_USERNAME/beknaes.git
+    git push -u origin main
+    ```
+3.  GitHub Actions will automatically build and deploy the app to the `gh-pages` branch.
+4.  In your GitHub Repository settings, go to **Settings > Pages** and ensure the source is set to the `gh-pages` branch.
+
+## 🛠️ Built With
+
+-   React
+-   Vite
+-   Tailwind CSS
+-   Firebase
+-   Lucide React
+-   Motion

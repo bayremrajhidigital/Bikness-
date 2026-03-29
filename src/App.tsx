@@ -44,7 +44,7 @@ function Navbar() {
             <div className="w-10 h-10 bg-orange-500 rounded-xl flex items-center justify-center group-hover:rotate-12 transition-transform">
               <Dumbbell className="text-white w-6 h-6" />
             </div>
-            <span className="text-2xl font-black tracking-tighter text-gray-900">BIKNESS</span>
+            <span className="text-2xl font-black tracking-tighter text-gray-900">BEKNAES</span>
           </Link>
 
           {/* Desktop Nav */}
@@ -195,7 +195,7 @@ function LandingPage() {
           transition={{ delay: 0.1 }}
           className="text-xl text-gray-600 max-w-2xl mx-auto mb-6"
         >
-          Bikness is your all-in-one fitness companion. AI-powered plans, massive exercise library, and a community of warriors.
+          beknaes is your all-in-one fitness companion. AI-powered plans, massive exercise library, and a community of warriors.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
