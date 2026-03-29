@@ -1,5 +1,5 @@
 import * as React from "react";
-import { BrowserRouter as Router, Routes, Route, Link, useNavigate, useLocation } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Link, useNavigate, useLocation } from "react-router-dom";
 import { AuthProvider, useAuth } from "./context/AuthContext";
 import { WorkoutProvider } from "./context/WorkoutContext";
 import { Dumbbell, LayoutDashboard, Users, Sparkles, LogOut, Menu, X, ClipboardList } from "lucide-react";
